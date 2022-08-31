@@ -25,10 +25,10 @@ public class Main {
 
         try {
 
-            final long timeStamp = parse(
+            final long timestamp = parse(
                                      format(
                                        DATE_START_PATTERN,
-                                       "31/02/2022"),
+                                       "29/02/2022"),
                                      DATETIME_FORMATTER_ES)
                                             .atZone(UTC)
                                             .toInstant()
